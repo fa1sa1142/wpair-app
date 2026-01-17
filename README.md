@@ -2,10 +2,10 @@
   <img src="assets/logo.png" alt="WhisperPair Logo" width="120" height="120">
 </p>
 
-<h1 align="center">WhisperPair</h1>
+<h1 align="center">WPair</h1>
 
 <p align="center">
-  <strong>CVE-2025-36911 Vulnerability Scanner & Research Tool</strong>
+  <strong>CVE-2025-36911 (eg WhisperPair) Vulnerability Scanner & Research Tool</strong>
 </p>
 
 <p align="center">
@@ -30,7 +30,7 @@ This application is an independent implementation created by **[@ZalexDev](https
 
 ## Overview
 
-**WhisperPair** is a defensive security research tool that demonstrates the CVE-2025-36911 vulnerability in Google's Fast Pair protocol. This vulnerability affects millions of Bluetooth audio devices worldwide, allowing unauthorized pairing and potential microphone access without user consent.
+**WPair** is a defensive security research tool that demonstrates the CVE-2025-36911 vulnerability in Google's Fast Pair protocol. This vulnerability affects millions of Bluetooth audio devices worldwide, allowing unauthorized pairing and potential microphone access without user consent.
 
 > **Purpose:** Help security researchers, device manufacturers, and end-users identify vulnerable devices that need firmware updates.
 
@@ -62,7 +62,7 @@ This application is an independent implementation created by **[@ZalexDev](https
 
 ### Download
 1. Go to [Releases](https://github.com/zalexdev/whisper-pair-app/releases)
-2. Download the latest `whisperpair-vX.X.X.apk`
+2. Download the latest `WPair-vX.X.X.apk`
 3. Enable "Install from unknown sources" if prompted
 4. Install and grant required permissions
 
@@ -104,7 +104,7 @@ After successful pairing:
 
 ```mermaid
 sequenceDiagram
-    participant App as WhisperPair
+    participant App as WPair
     participant Target as Vulnerable Device
     participant BT as Android Bluetooth
 
@@ -148,7 +148,7 @@ flowchart LR
 
 ## Vulnerability
 
-### CVE-2025-36911: Fast Pair Key-Based Pairing Authentication Bypass
+### CVE-2025-36911: Fast Pair Key-Based Pairing Authentication Bypass (also known as WhisperPair)
 
 **Severity:** High
 **CVSS Score:** 8.1
@@ -169,8 +169,6 @@ The Fast Pair protocol uses Key-Based Pairing to authenticate pairing requests. 
 - **Location Tracking:** Persistent tracking via Account Key advertising
 
 #### Affected Devices
-
-See the full list at [whisperpair.eu/vulnerable-devices](https://whisperpair.eu/vulnerable-devices)
 
 Major affected manufacturers include:
 - JBL
