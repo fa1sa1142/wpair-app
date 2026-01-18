@@ -53,12 +53,15 @@ This application is an independent implementation created by **[@ZalexDev](https
   <img src="assets/screenshot_recordings.png" width="250" alt="Recordings">
 </p>
 
+## Note on Find Hub Network (FMDN) tracking
+This tool deliberately does not include FMDN provisioning functionality. While the vulnerability chain technically allows enrolling compromised devices into Google's Find Hub Network for persistent location tracking, I've chosen not to implement this capability. Converting someone's headphones into a covert tracking beacon crosses a clear ethical line from security research into stalkerware territory. The Account Key write and audio access demonstrations are sufficient to prove the vulnerability's severity.
+
 ## Installation
 
 ### Requirements
 - Android 8.0 (API 26) or higher
 - Bluetooth LE support
-- Location permission (required for BLE scanning on Android)
+- Location permission (required for BLE scanning on Android) / Nearby Devices (A13+)
 
 ### Download
 1. Go to [Releases](https://github.com/zalexdev/whisper-pair-app/releases)
